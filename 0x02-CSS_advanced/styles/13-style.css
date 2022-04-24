@@ -31,6 +31,8 @@
        /* Header align*/
        --section-header-align: center;
        --section-tagline-transform: uppercase;
+       --section-title-margin: 0;
+	--section-title-color: var(--color-black);
 }
 
 html {
@@ -38,13 +40,26 @@ html {
        font-size: 62.5%;
      }
 
-body, a{
+body{
        color: var(--text-color);
        font-family: var(--font-family-base);
        font-size: var(--font-size-medium);
        font-weight: var(--font-weight-regular);
        line-height: var(--line-height-base);
-       text-decoration: none;
+}
+
+a:link {
+	color: var(--text-color);
+	text-decoration: none;
+}
+a:visited {
+	font-style: italic;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	background-color: var(--color-light-grey);
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -92,9 +107,6 @@ h1, h2, h3, h4, h5, h6{
 
        /* Header align*/
        --section-header-align: center;
-       --section-tagline-transform: uppercase;
-	--section-title-margin: 0;
-	--section-title-color: var(--color-black);
 }
 
 html {
