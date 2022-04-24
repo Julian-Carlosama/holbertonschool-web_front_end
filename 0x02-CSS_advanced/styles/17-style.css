@@ -467,6 +467,12 @@ h1, h2, h3, h4, h5, h6{
        --section-header-align: center;
 }
 
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
 html {
        scroll-behavior: smooth;
        font-size: 62.5%;
