@@ -1,0 +1,7 @@
+@import '11-photos.scss';
+
+@each $var-names in $list-names {
+    .photo-#{$var-names} {
+        background-color: image-url("photos/#{$var-names}.jpg") no-repeat;
+    }
+}
