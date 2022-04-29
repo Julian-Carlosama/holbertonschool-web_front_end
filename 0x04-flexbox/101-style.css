@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  height: 200px;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.box1 {
+  background-color:rgb(0, 255, 132);
+  width: 10%;
+  height: 43%;
+  font-size: 200%;
+}
+
+.box2 {
+  background-color:deepskyblue;
+  width: 16%;
+  height: 60%;
+  font-size: 350%;
+}
+
+.box3 {
+  background-color:rgb(8, 73, 137);
+  width: 25%;
+  height: 90%;
+  font-size: 600%;
+}
+
+.box4 {
+  background-color:darkorchid;
+  width: 16%;
+  height: 60%;
+  font-size: 350%;
+}
+
+.box5 {
+  background-color:orange;
+  width: 10%;
+  height: 43%;
+  font-size: 200%;
+}
